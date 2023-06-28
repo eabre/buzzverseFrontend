@@ -1,0 +1,83 @@
+body {
+  background-color: #343541;
+}
+.loginpage_main {
+  display: flex;
+  margin-top: 10px;
+  margin-left: -65px;
+}
+.loginpage_logo {
+  width: 175px;
+  margin-top: 25px;
+}
+.loginpage_right {
+  height: 380px;
+  width: 350px;
+  border: 1px solid #4d4d4f;
+  border-radius: 5px;
+  margin-top: 25px;
+  margin-left: 10px;
+  text-align: center;
+  background-color: #40414f;
+}
+.loginpage_signin {
+  margin-top: 25px;
+}
+.loginpage_text {
+  width: 250px;
+  height: 36px;
+  margin: 5px;
+  border: 2px solid #4d4d4f;
+  background-color: #343541;
+  padding-left: 5px;
+  border-radius: 5px;
+  color: #ececf1;
+}
+.loginpage_button {
+  width: 260px;
+  height: 36px;
+  border-radius: 5px;
+  font-weight: bold;
+  border: 1px solid #4d4d4f;
+  background-color: #6b6c7b;
+  color: #ececf1;
+  margin-top: 5px;
+}
+.loginpage__ordiv {
+  display: flex;
+  justify-content: center;
+}
+.loginpage__dividor {
+  width: 300px;
+  border: 1px solid #4d4d4f;
+  margin-top: 10px;
+}
+.loginpage_google {
+  color: #ececf1;
+  font-weight: bold;
+  margin-top: 20px;
+}
+.loginpage_forgot {
+  color: #ececf1;
+  font-size: 12px;
+  line-height: 14px;
+  margin-top: 12px;
+  text-align: center;
+}
+.loginpage_signupoption {
+  height: 56px;
+  width: 350px;
+  border: 1px solid #4d4d4f;
+  border-radius: 5px;
+  margin-top: 10px;
+  margin-left: 10px;
+  text-align: center;
+  background-color: #40414f;
+}
+.loginpage__signin {
+  margin-top: 10px;
+  color: #ececf1;
+}
+.loginpage_signup {
+  color: #ececf1;
+}
