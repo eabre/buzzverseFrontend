@@ -5,7 +5,7 @@ class SignUp extends Component {
     super(props);
   }
   render() {
-    return <div></div>;
+    return <div>Buradan devam</div>;
   }
 }
 
