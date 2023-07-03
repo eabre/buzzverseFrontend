@@ -30,3 +30,10 @@
   color: #ba691d;
   margin: 40px 20px 30px 30px;
 }
+.upload_story:hover {
+  margin: 40px 20px 30px 30px;
+  color: #19c37d;
+  cursor: pointer;
+  transition-delay: 0.15s;
+  transition-property: color;
+}

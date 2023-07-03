@@ -58,16 +58,13 @@ class Post extends Component {
             <AddCommentSharpIcon className="post_react_image" />
             <SendSharpIcon className="post_react_image" />
           </div>
-          <div
-            style={{ fontWeight: "bold", marginLeft: "18px", color: "#ba691d" }}
-          >
-            {this.props.likes} likes
-          </div>
+          <div className="post_likes">{this.props.likes} likes</div>
         </div>
         <div>
           {this.state.commentList.map((item, index) => (
             <div className="post_comment">
-              {item.userName}: {item.description}
+              <div className="post_comment_user">{item.userName}</div>:{" "}
+              {item.description}
             </div>
           ))}
           <input

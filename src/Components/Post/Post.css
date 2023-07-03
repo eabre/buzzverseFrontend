@@ -11,6 +11,7 @@
   border-top-right-radius: 20px;
   display: flex;
   border-bottom: 1px solid #19c37d;
+  cursor: pointer;
 }
 .post_image {
   min-height: 30px;
@@ -22,13 +23,30 @@
   margin-top: 20px;
   color: #ba691d;
 }
+
+.post_username:hover {
+  font-weight: bold;
+  margin-top: 20px;
+  color: #19c37d;
+  cursor: pointer;
+  transition-delay: 0.15s;
+  transition-property: color;
+}
+
 .post_react_image {
-  width: 25px;
-  height: 25px;
   margin: 5px;
   color: #ba691d;
 }
+
+.post_react_image:hover {
+  color: #19c37d;
+  cursor: pointer;
+  transition-delay: 0.15s;
+  transition-property: color;
+}
+
 .post_comment {
+  display: flex;
   margin: 10px;
   color: #ba691d;
 }
@@ -45,4 +63,31 @@
   font-size: 16px;
   padding-left: 10px;
   color: #19c37d;
+}
+.post_likes {
+  font-weight: bold;
+  margin-left: 18px;
+  color: #ba691d;
+}
+
+.post_likes:hover {
+  font-weight: bold;
+  margin-left: 18px;
+  color: #19c37d;
+  cursor: pointer;
+  transition-delay: 0.15s;
+  transition-property: color;
+}
+
+.post_comment_user {
+  font-weight: bold;
+  color: #ba691d;
+}
+
+.post_comment_user:hover {
+  font-weight: bold;
+  color: #19c37d;
+  cursor: pointer;
+  transition-delay: 0.15s;
+  transition-property: color;
 }

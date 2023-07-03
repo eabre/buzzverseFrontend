@@ -11,6 +11,13 @@
   margin: 15px 10px;
   color: #ba691d;
 }
+.navbar_icon:hover {
+  margin: 15px 10px;
+  color: #19c37d;
+  cursor: pointer;
+  transition-delay: 0.15s;
+  transition-property: color;
+}
 .navbar_search {
   height: 30px;
   width: 215px;
@@ -20,4 +27,7 @@
   border-radius: 5px;
   text-align: center;
   color: white;
+}
+.fileupload > input {
+  display: none;
 }

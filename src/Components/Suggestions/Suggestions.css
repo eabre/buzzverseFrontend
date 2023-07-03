@@ -19,9 +19,18 @@
 .suggestions_image {
   max-width: 35px;
   max-height: 35px;
+  cursor: pointer;
 }
 .suggestions_username {
   font-weight: bold;
-  color: #ba691d;
   margin: 10px;
+  color: #ba691d;
+}
+.suggestions_username:hover {
+  font-weight: bold;
+  margin: 10px;
+  color: #19c37d;
+  cursor: pointer;
+  transition-delay: 0.15s;
+  transition-property: color;
 }
