@@ -9,7 +9,17 @@ import SignUp from "../SignUp/SignUp";
 class LoginPage extends Component {
   constructor(props) {
     super(props);
+    this.state = {
+      isLogin: true,
+    };
   }
+  changeLogin = () => {
+    if (this.state.isLogin) {
+      this.setState({ isLogin: false });
+    } else {
+      this.setState({ isLogin: true });
+    }
+  };
   render() {
     return (
       <div>
@@ -26,14 +36,10 @@ class LoginPage extends Component {
               </div>
               <div>
                 <div className="loginpage_right">
-                  <img
-                    className="loginpage_logo"
-                    src={logo}
-                    style={{ borderRadius: "5%" }}
-                  />
+                  <img className="loginpage_logo" src={logo} />
                   <div className="loginpage_signin">
-                    <SignIn />
-                    <SignUp />
+                    {this.state.isLogin ? <SignIn /> : <SignUp />}
+
                     <div className="loginpage_ordiv">
                       <div className="loginpage_dividor"></div>
                     </div>
@@ -46,18 +52,27 @@ class LoginPage extends Component {
                   </div>
                 </div>
                 <div className="loginpage_signupoption">
-                  <div className="loginpage_signup">
-                    Create an account/
-                    <span style={{ fontWeight: "bold", color: "#ECECF1" }}>
-                      Sign up
-                    </span>
-                  </div>
-                  <div className="loginpage__signin">
-                    Already have an account/
-                    <span style={{ fontWeight: "bold", color: "#ECECF1" }}>
-                      Sign in
-                    </span>
-                  </div>
+                  {this.state.isLogin ? (
+                    <div className="loginpage_signup">
+                      Create an account/
+                      <span
+                        onClick={this.changeLogin}
+                        style={{ fontWeight: "bold", color: "#ECECF1" }}
+                      >
+                        Sign up
+                      </span>
+                    </div>
+                  ) : (
+                    <div className="loginpage__signin">
+                      Already have an account/
+                      <span
+                        onClick={this.changeLogin}
+                        style={{ fontWeight: "bold", color: "#ECECF1" }}
+                      >
+                        Sign in
+                      </span>
+                    </div>
+                  )}
                 </div>
               </div>
             </div>

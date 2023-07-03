@@ -1,0 +1,23 @@
+.navbar_content {
+  height: 54px;
+  background-color: #40414f;
+}
+.navbar_logo {
+  margin: 4px;
+  border-radius: 5%;
+  width: 180px;
+}
+.navbar_icon {
+  margin: 15px 10px;
+  color: #ba691d;
+}
+.navbar_search {
+  height: 30px;
+  width: 215px;
+  margin-top: 10px;
+  background-color: #343541;
+  border: 1px solid #19c37d;
+  border-radius: 5px;
+  text-align: center;
+  color: white;
+}

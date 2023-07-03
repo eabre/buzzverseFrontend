@@ -1,0 +1,32 @@
+.status {
+  margin: 25px 10px;
+  color: #ba691d;
+}
+.statusbar_container {
+  height: 120px;
+  width: 615px;
+  background-color: #40414f;
+  margin-top: 25px;
+  display: flex;
+  overflow: scroll;
+  border-radius: 20px;
+  border: 1px solid #19c37d;
+}
+.statusbar_container::-webkit-scrollbar {
+  display: none;
+}
+.statusbar_status {
+  min-width: 55px;
+  min-height: 55px;
+  border: 2px solid #19c37d;
+}
+.statusbar_text {
+  font-size: 12px;
+  max-width: 60px;
+  overflow: hidden;
+  text-align: center;
+}
+.upload_story {
+  color: #ba691d;
+  margin: 40px 20px 30px 30px;
+}

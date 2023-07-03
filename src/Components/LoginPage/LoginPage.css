@@ -9,11 +9,12 @@ body {
 .loginpage_logo {
   width: 175px;
   margin-top: 25px;
+  border-radius: 5%;
 }
 .loginpage_right {
-  height: 380px;
   width: 350px;
-  border: 1px solid #4d4d4f;
+  padding-bottom: 25px;
+  border: 1px solid #19c37d;
   border-radius: 5px;
   margin-top: 25px;
   margin-left: 10px;
@@ -27,7 +28,7 @@ body {
   width: 250px;
   height: 36px;
   margin: 5px;
-  border: 2px solid #4d4d4f;
+  border: 2px solid #19c37d;
   background-color: #343541;
   padding-left: 5px;
   border-radius: 5px;
@@ -38,7 +39,7 @@ body {
   height: 36px;
   border-radius: 5px;
   font-weight: bold;
-  border: 1px solid #4d4d4f;
+  border: 1px solid #19c37d;
   background-color: #6b6c7b;
   color: #ececf1;
   margin-top: 5px;
@@ -49,7 +50,7 @@ body {
 }
 .loginpage__dividor {
   width: 300px;
-  border: 1px solid #4d4d4f;
+  border: 1px solid #19c37d;
   margin-top: 10px;
 }
 .loginpage_google {
@@ -67,7 +68,7 @@ body {
 .loginpage_signupoption {
   height: 56px;
   width: 350px;
-  border: 1px solid #4d4d4f;
+  border: 1px solid #19c37d;
   border-radius: 5px;
   margin-top: 10px;
   margin-left: 10px;
@@ -75,9 +76,10 @@ body {
   background-color: #40414f;
 }
 .loginpage__signin {
-  margin-top: 10px;
+  margin-top: 15px;
   color: #ececf1;
 }
 .loginpage_signup {
+  margin-top: 15px;
   color: #ececf1;
 }

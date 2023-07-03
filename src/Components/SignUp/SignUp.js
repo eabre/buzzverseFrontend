@@ -5,7 +5,19 @@ class SignUp extends Component {
     super(props);
   }
   render() {
-    return <div>Buradan devam</div>;
+    return (
+      <div>
+        <input className="loginpage_text" type="text" placeholder="Email" />
+        <input className="loginpage_text" type="text" placeholder="Full name" />
+        <input className="loginpage_text" type="text" placeholder="Username" />
+        <input
+          className="loginpage_text"
+          type="password"
+          placeholder="Password"
+        />
+        <button className="loginpage_button">Sign up</button>
+      </div>
+    );
   }
 }
 
