@@ -23,22 +23,6 @@ class MainPage extends Component {
         timeStamp: "123456",
         likes: "31",
       },
-      {
-        postId: "123456",
-        userName: "baran_tanriverdi",
-        postImageUrl:
-          "https://ares.shiftdelete.net/2022/04/cyberpunk-2077-ilk-dlc-ek-paket-guncellemesi.jpg",
-        timeStamp: "123456",
-        likes: "31",
-      },
-      {
-        postId: "123456",
-        userName: "baran_tanriverdi",
-        postImageUrl:
-          "https://ares.shiftdelete.net/2022/04/cyberpunk-2077-ilk-dlc-ek-paket-guncellemesi.jpg",
-        timeStamp: "123456",
-        likes: "31",
-      },
     ];
     this.setState({ postArray: postData });
   };
