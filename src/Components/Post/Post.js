@@ -18,22 +18,10 @@ class Post extends Component {
   getComments = () => {
     let commentData = [
       {
-        userName: "tamay_erdogdu",
-        commentId: "1234",
-        timeStamp: "123456",
-        description: "Çok güzelsin",
-      },
-      {
-        userName: "LERZAN",
-        commentId: "1234",
-        timeStamp: "123456",
-        description: "GÖTÜMÜ SİK",
-      },
-      {
         userName: "baran_tanriverdi",
         commentId: "1234",
         timeStamp: "123456",
-        description: "allah",
+        description: "comment-1",
       },
     ];
     this.setState({ commentList: commentData });
