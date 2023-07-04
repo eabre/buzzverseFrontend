@@ -16,18 +16,6 @@ class Statusbar extends Component {
   getStatusData = () => {
     let statusData = [
       {
-        username: "tamay_erdogdu",
-        imageURL: "../../images/profile.png",
-      },
-      {
-        username: "baran_tanriverdi",
-        imageURL: "../../images/profile.png",
-      },
-      {
-        username: "umut_lerzan",
-        imageURL: "../../images/profile.png",
-      },
-      {
         username: "baran_tanriverdi",
         imageURL: "../../images/profile.png",
       },
